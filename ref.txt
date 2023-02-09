@@ -1,0 +1,182 @@
+<div class="thisRow">
+ 
+  <div class="card bg-dark" style="width: 20rem;">
+    <div class=" text-center">
+      <img src="https://images.unsplash.com/photo-1498847559558-1e4b1a7f7a2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+      <div class="card-img-overlay text-center">
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Rain</div>
+          <input type="range" min="0" max="100" value="50"  oninput="RainVol(this.value)">
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="card bg-dark" style="width: 20rem;" >
+        <div class=" text-center">
+        <img src="https://images.unsplash.com/photo-1587228270638-2c0ac062c01a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-center">
+  
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Thunder</div>
+          <input type="range" min="0" max="100" value="0"  oninput="ThunderVol(this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-dark" style="width: 20rem;" >
+        <div class=" text-center">
+        <img src="https://images.unsplash.com/photo-1464030871258-a01dfd38220a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1187&q=80" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Waves</div>
+          <input type="range" min="0" max="100" value="0"  oninput="WavesVol(this.value)">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+<div class="thisRow">
+  <div class="card bg-dark" style="width: 20rem;" >
+        <div class=" text-center">
+          <img src="https://images.unsplash.com/photo-1533985062386-ef0837f31bc0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+          <div class="card-img-overlay text-center">
+          
+            <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Wind</div>
+          <input type="range" min="0" max="100" value="0"  oninput="WindVol(this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-dark" style="width: 20rem;" >
+        <div class=" text-center">
+          <img src="https://images.unsplash.com/photo-1506333438925-a6203045b492?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+          <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Birds</div>
+          <input type="range" min="0" max="100" value="0"  oninput="BirdsVol(this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-dark" style="width: 20rem;" >
+        <div class=" text-center">
+        <img src="https://images.unsplash.com/photo-1596705210572-ab36fe931e78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Insects</div>
+          <input type="range" min="0" max="100" value="0"  oninput="InsectsVol(this.value)">
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+<div class="thisRow">
+   
+  <div class="card bg-dark" style="width: 20rem;">
+    <div class=" text-center">
+      <img src="https://images.unsplash.com/photo-1503516459261-40c66117780a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80" class="card-img-top" alt="...">
+      <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Camp-Fire</div>
+          <input type="range" min="0" max="100" value="0"  oninput="FireVol(this.value)">
+        </div>
+      </div>
+    </div>
+   
+    
+    <div class="card bg-dark" style="width: 20rem;" >
+      <div class=" text-center">
+        <img src="https://images.unsplash.com/photo-1579519772836-2732b96a6306?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Traffic Jam</div>
+          <input type="range" min="0" max="100" value="0"  oninput="TrafficVol(this.value)">
+        </div>
+      </div>
+    </div>
+    
+    <div class="card bg-dark" style="width: 20rem;" >
+      <div class=" text-center">
+        <img src="https://images.unsplash.com/photo-1494346480775-936a9f0d0877?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1003&q=80" class="card-img-top" alt="...">
+        <div class="card-img-overlay text-center">
+          
+          <div class="h4 mt-5 mb-5" style="color: white; opacity: 0.7;">Cafe</div>
+          <input type="range" min="0" max="100" value="0"  oninput="CafeVol(this.value)">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<!-- contact/feedback form -->
+<div class="feedback-card mt-5">
+  <div class="feedback-header">
+    SEND FEEDBACK
+  </div>
+  <form class="feedback-body">
+    <input autocomplete=false type="text" id="feedback-body__email" placeholder="Name*" />
+    <textarea type="text" id="feedback-body__message" placeholder="Message*"></textarea>
+    <div class="form-group my-3">
+      <input type="button" class="btn btn-light" style="background-color: #dadad3;" id="feedback-body__submit" value="SEND">
+    </div>
+  </form>
+</div>
+
+
+/* contact form */
+input, button, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-image: none;
+    background-color: #dadad3;
+    box-shadow: none;
+    padding: 5px;
+  }
+  input:focus, button:focus, textarea:focus {
+    outline: none;
+  }
+  
+  textarea {
+    min-height: 50px;
+    resize: vertical;
+  }
+  
+  button {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .feedback-card {
+    border: 1px solid black;
+    max-width: 500px;
+    background-color: #1d1d1d;
+    margin: 0 auto;
+    box-shadow: -0.6rem 0.6rem 10px rgba(0, 0, 0, 0.5);
+  }
+  .feedback-header {
+    text-align: center;
+    padding: 8px;
+    color: #dadad3;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+  }
+  .feedback-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-body__message {
+    margin-top: 10px;
+  }
+  .feedback-body button {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
