@@ -24,9 +24,14 @@ body{
 
 
 
-.nav a{
-    color: white !important;
+.navbar{
+  position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(180deg, black, rgba(0,0,0,0.9),transparent);
+    padding-bottom: 2.6rem;
 }
+
 
 
   
@@ -76,7 +81,7 @@ body{
   }
 
 .tiles{
-  margin-top: 20px;
+  margin-top: 5rem;
 width: 95%;
 }
 
@@ -97,7 +102,7 @@ width: 95%;
 
 
   .tile_img{
-    height: 60px;
+    height: 65px;
     border-radius: 15px;
   }
 
@@ -106,6 +111,50 @@ width: 95%;
   color: var(--dark_white);
 }
 
-.slider{
+.slider {
+  margin-top: 5px;
+  width: 95%;
+}
+
+
+
+/* range */
+
+input[type=range]{
+  -webkit-appearance: none;
+  pointer-events: none;
+  background: var(--light_green);
+  border-radius: 10px ;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  pointer-events: none;
+  height: 7px;
+  border: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: auto;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: var(--main_green);
+  margin-top: -4px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+
+
+
+
+/* about */
+.about-main{
+  margin: 5rem auto 2rem;
   width: 95%;
 }
